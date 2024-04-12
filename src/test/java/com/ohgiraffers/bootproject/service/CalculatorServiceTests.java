@@ -28,7 +28,7 @@ class CalculatorServiceTests {
                 Arguments.of(new CalculatorDTO(200, -103))
         );
     }
-
+    
     @DisplayName("두 수의 합 구하기 테스트")
     @ParameterizedTest
     @MethodSource("provideDTOSource")
